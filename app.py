@@ -1,4 +1,9 @@
-import cv2
+try:
+    import cv2
+except ImportError:
+    import os
+    os.system("pip install opencv-python-headless")
+    import cv2
 import streamlit as st
 from ultralytics import YOLO
 import numpy as np
@@ -64,3 +69,4 @@ def app():
             file_name="bean_pod_detections.zip",
             mime="application/zip"
         )
+
