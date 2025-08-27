@@ -1,0 +1,8 @@
+#path: "C:/Users/Admin/Desktop/Model folder/yolo"
+train: "C:/Users/Admin/Desktop/Model folder/yolo/images/train"  # Train folder
+val: "C:/Users/Admin/Desktop/Model folder/yolo/images/val"  # Validation folder
+
+nc: 1
+names:
+   0: mature_pod
+  
