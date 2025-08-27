@@ -2,7 +2,7 @@ opencv-python-headless
 streamlit
 torch
 torchvision
-ultralytics     # for YOLOv8 / YOLOv11
+ultralytics
 matplotlib
 numpy
 pandas
