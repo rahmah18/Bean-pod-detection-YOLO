@@ -1,0 +1,11 @@
+torch
+torchvision
+ultralytics     # for YOLOv8 / YOLOv11
+opencv-python
+matplotlib
+numpy
+pandas
+scikit-learn
+tqdm
+pyyaml
+seaborn
