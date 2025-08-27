@@ -6,6 +6,7 @@ ultralytics
 matplotlib
 numpy
 pandas
+pillow
 scikit-learn
 tqdm
 pyyaml
