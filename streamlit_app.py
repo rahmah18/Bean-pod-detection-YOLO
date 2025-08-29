@@ -1,10 +1,11 @@
-import cv2
+
 import streamlit as st
 from ultralytics import YOLO
 import numpy as np
 import io
 import zipfile
 from PIL import Image
+import cv2
 
 def app():
     st.header('🌱 Bean Pod Detection Web App')
@@ -64,5 +65,6 @@ def app():
             file_name="bean_pod_detections.zip",
             mime="application/zip"
         )
+
 
 
