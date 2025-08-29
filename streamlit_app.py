@@ -17,8 +17,8 @@ model = load_model()
 object_names = list(model.names.values())
 
 def app():
-    st.header('🌱 Bean Pod Detection Web App')
-    st.subheader('Powered by YOLOv8 for Mature Pods Detection')
+    st.header('Mature Bean Pod Detection Web App')
+    st.subheader('Powered by YOLOv8')
     st.write('Upload bean plant images and detect mature pods.')
 
     with st.form("my_form"):
@@ -78,3 +78,4 @@ def app():
 # ✅ Must call app
 if __name__ == "__main__":
     app()
+
