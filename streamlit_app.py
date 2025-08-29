@@ -11,14 +11,14 @@ st.set_page_config(page_title="Bean Pod Detection", layout="wide")
 # ✅ Load model once (outside app)
 @st.cache_resource
 def load_model():
-    return YOLO("models/yolov8-model/best.pt")  # check folder name!
+    return YOLO("Models/yolov8-model/best.pt")  # check folder name!
 
 model = load_model()
 object_names = list(model.names.values())
 
 def app():
-    st.header('🌱 Bean Pod Detection Web App')
-    st.subheader('Powered by YOLOv8 for Mature Pods Detection')
+    st.header('🌱 Matured Bean Pod Detection Web App')
+    st.subheader('Powered by YOLOv8')
     st.write('Upload bean plant images and detect mature pods.')
 
     with st.form("my_form"):
@@ -78,3 +78,4 @@ def app():
 # ✅ Must call app
 if __name__ == "__main__":
     app()
+
